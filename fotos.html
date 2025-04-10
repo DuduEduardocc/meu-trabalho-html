@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg" type="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg">
-   
-    <title>Trabalho Acadêmico - Chevrolet Astra</title>
+    <title>Fotos - Chevrolet Astra</title>
     <style>
         /* Estilo do menu de navegação */
 .menu-principal {
@@ -34,7 +33,7 @@
 .menu-principal a:hover {
     background-color: #002244;
 }
-         :root {
+        :root {
             --azul-chevrolet: #003366;
             --cinza-claro: #f5f5f5;
             --cinza-escuro: #333333;
@@ -146,20 +145,30 @@
             color: #666;
             font-size: 0.9rem;
         }
-        .info-box {
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 0 auto;
-}
-footer {
+        footer {
     background-color: #003366;
     color: white;
     padding: 20px;
     border-radius: 10px;
     margin-top: 50px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
 }
 .menu {
   background-color: #002f6c;
@@ -191,12 +200,9 @@ footer {
 </head>
 <body>
     <header>
-        
-        <img src="https://i.postimg.cc/Kz1ZshsB/Texto-do-seu-par-grafo-2.jpg" alt="Logotipo da Uniube" width="500px">
-        <BR></BR>
-        <h1>77 ANOS</h1>
+        <h1>Fotos</h1>
+        <img src="https://i.postimg.cc/TYgCBM77/816-chevrolet.jpg" alt="Astra" width="400px">
     </header>
-    
     <nav class="menu-principal">
         <ul>
             <a href="contato.html">Contato</a>
@@ -215,23 +221,30 @@ footer {
             
         </ul>
     </nav>
-
     <main>
-        <section class="info-box">
-            <h2>Trabalho Acadêmico</h2>
-            <p><strong>Aluno:</strong> Carlos Eduardo Gomes Da Silva </p>
-            <p><strong>RA:</strong> 5166758</p>
-            <p><strong>Professor:</strong> Joabe Fuzado</p>
-            <p><strong>Disciplina:</strong> TECNOLOGIAS PARA A INTERNET I</p>
-            <p><strong>Faculdade:</strong> Uniube</p>
-            <p>Este site foi desenvolvido como parte do trabalho acadêmico sobre o Chevrolet Astra.</p>
-        </section>
-      </main>
-      
+        <h2>Chevrolet Astra SS 2006-2008 preto e vermelho</h2>
+        <div class="galeria">
+            <img src="https://i.postimg.cc/Yq2kXGxx/Astra-SS-Preto-2008-1.jpg" alt="">
+            <img src="https://i.postimg.cc/VvxqNQ4f/chevrolet-astra-ss-70.jpg" alt="">
+            <img src="https://i.postimg.cc/tCGVLdgW/Chevrolet-Astra-Hatch-SS-Preto-2008-1.jpg" alt="">
+            <img src="https://i.postimg.cc/VsqN0xY0/Chevrolet-Astra-Hatch-SS-Preto-2008-2.jpg" alt="">
+            <img src="https://i.postimg.cc/wTnjsgCz/chevrolet-astra-ss-2005-2008-2.jpg" alt="">
+            
+            <img src="https://i.postimg.cc/QNYXR1JS/Chevrolet-Astra-Hatch-2005-2008-Vermelho.jpg" alt="">
+            <img src="https://i.postimg.cc/yNRjzmRR/Chevrolet-Astra-Hatch-2005-2008-Vermelho.jpg" alt="">
+            <img src="https://i.postimg.cc/4NmKj868/chevrolet-astra-ss.jpg" alt="">
 
+            <h2>Chevrolet Astra GSI</h2>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </main>
     <footer>
         <p>Carlos Eduardo Gomes Da Silva</p>
-        <p>RA:5166758</p>
+        <p>RA: 5166758</p>
     </footer>
 </body>
 </html>

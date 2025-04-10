@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg" type="https://i.postimg.cc/Kvs0xr1F/816-chevrolet.jpg">
-   
-    <title>Trabalho Acadêmico - Chevrolet Astra</title>
+    <title>Tabela - Chevrolet Astra</title>
     <style>
         /* Estilo do menu de navegação */
 .menu-principal {
@@ -34,7 +33,7 @@
 .menu-principal a:hover {
     background-color: #002244;
 }
-         :root {
+        :root {
             --azul-chevrolet: #003366;
             --cinza-claro: #f5f5f5;
             --cinza-escuro: #333333;
@@ -146,13 +145,31 @@
             color: #666;
             font-size: 0.9rem;
         }
-        .info-box {
+        .tabela-modelos {
+    width: 100%;
+    border-collapse: collapse;
     background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.tabela-modelos th, .tabela-modelos td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tabela-modelos th {
+    background-color: #003366;
+    color: white;
+}
+
+.tabela-modelos tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.tabela-modelos img {
+    border-radius: 8px;
 }
 footer {
     background-color: #003366;
@@ -161,42 +178,15 @@ footer {
     border-radius: 10px;
     margin-top: 50px;
 }
-.menu {
-  background-color: #002f6c;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 20px 0;
-  margin: 0; /* remove margem externa */
-  box-sizing: border-box;
-}
-
-.menu a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-.menu a:hover {
-  color: #ffcc00; /* cor de destaque ao passar o mouse */
-}
-
 
     </style>
-    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <header>
         
-        <img src="https://i.postimg.cc/Kz1ZshsB/Texto-do-seu-par-grafo-2.jpg" alt="Logotipo da Uniube" width="500px">
-        <BR></BR>
-        <h1>77 ANOS</h1>
+        <img src="https://i.postimg.cc/TYgCBM77/816-chevrolet.jpg" alt="Astra" width="400px">
+        
     </header>
-    
     <nav class="menu-principal">
         <ul>
             <a href="contato.html">Contato</a>
@@ -215,23 +205,76 @@ footer {
             
         </ul>
     </nav>
-
     <main>
-        <section class="info-box">
-            <h2>Trabalho Acadêmico</h2>
-            <p><strong>Aluno:</strong> Carlos Eduardo Gomes Da Silva </p>
-            <p><strong>RA:</strong> 5166758</p>
-            <p><strong>Professor:</strong> Joabe Fuzado</p>
-            <p><strong>Disciplina:</strong> TECNOLOGIAS PARA A INTERNET I</p>
-            <p><strong>Faculdade:</strong> Uniube</p>
-            <p>Este site foi desenvolvido como parte do trabalho acadêmico sobre o Chevrolet Astra.</p>
-        </section>
-      </main>
-      
+        <h2>Tabela de Modelos - Chevrolet Astra</h2>
+<table  class="tabela-modelos">
+  <tr>
+    <th>Ano</th>
+    <th>Modelo</th>
+    <th>Motorização</th>
+    <th>Transmissão</th>
+    <th>Consumo (km/l)</th>
+    <th>Combustível</th>
+    <th>Preço</th>
+    <th>Imagem</th>
+  </tr>
+  <tr>
+    <td>2001</td>
+    <td>Astra GSI</td>
+    <td>2.0 16V</td>
+    <td>Manual</td>
+    <td>7,5 / 10,5</td>
+    <td>Gasolina</td>
+    <td>R$ 28.000</td>
+    <td><img src="https://i.postimg.cc/MZyL4nyy/images.jpg" width="100" alt="Astra GSI"></td>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>Astra SS</td>
+    <td>2.0 8V FLEX</td>
+    <td>Manual</td>
+    <td>8,0 / 12,0</td>
+    <td>Flex</td>
+    <td>R$ 27.000</td>
+    <td><img src="https://i.postimg.cc/Yq2kXGxx/Astra-SS-Preto-2008-1.jpg" width="100" alt="Astra SS"></td>
+  </tr>
+  <tr>
+    <td>2006</td>
+    <td>Astra Advantage</td>
+    <td>2.0 8V FLEX</td>
+    <td>Manual</td>
+    <td>8,5 / 11,5</td>
+    <td>Flex</td>
+    <td>R$ 24.000</td>
+    <td><img src="https://i.postimg.cc/CKvjTXyk/astra-2005-3portas.jpg" width="100" alt="Astra Advantage"></td>
+  </tr>
+  <tr>
+    <td>2007</td>
+    <td>Astra Comfort</td>
+    <td>2.0 8V FLEX</td>
+    <td>Manual</td>
+    <td>8,7 / 12,3</td>
+    <td>Flex</td>
+    <td>R$ 25.500</td>
+    <td><img src="https://i.postimg.cc/Jn1gqKSG/astra-2003.jpg" width="100" alt="Astra Comfort"></td>
+  </tr>
+  <tr>
+    <td>2009</td>
+    <td>Astra Elegance</td>
+    <td>2.0 8V FLEX</td>
+    <td>Automático</td>
+    <td>7,8 / 11,0</td>
+    <td>Flex</td>
+    <td>R$ 30.000</td>
+    <td><img src="https://i.postimg.cc/2S4hH38q/anuncio-18434-1.jpg" width="100" alt="Astra Elegance"></td>
+  </tr>
+</table>
 
+        </table>
+    </main>
     <footer>
         <p>Carlos Eduardo Gomes Da Silva</p>
-        <p>RA:5166758</p>
+        <p>RA: 5166758</p>
     </footer>
 </body>
 </html>
